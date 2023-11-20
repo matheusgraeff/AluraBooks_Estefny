@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="slyles.css">
 </head>
 
@@ -40,8 +41,8 @@
           <img src="Logo.png" alt="logo da BooksAlura" class="container__imagem">
         </div>
         <div class="container">
-          <a href="a"><img src="Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-          <a href="a"><img src="Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+          <a href="a"><img src="Favoritos.png" alt="Meus favoritos" class="container__imagem"></a>
+          <a href="a"><img src="Compras.png" alt="Carrinho de compras" class="container__imagem"></a>
           <a href="a"><img src="Usuario.png" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
@@ -50,6 +51,31 @@
        <p class="banner__texto">Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura">
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Liderança.png</div>
+      <div class="swiper-slide"> Portugol.png</div>
+      <div class="swiper-slide">Nodejs.png</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
